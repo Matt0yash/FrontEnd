@@ -1,0 +1,52 @@
+<!--
+internal styles:
+=> html tags and styles are defined in same program, but not in same line
+=> used to define common styles for html elements(repeated)
+=> internal styles should be defined with in <style> tag
+=> style is paired, and it should be tag of "head" tag
+	Syn:-
+			<style>
+				tag{														selector
+						property:value;
+						property:value;
+						......
+					}
+				tag{
+						property:value;
+						property:value;
+						......	
+					}
+			</style>
+-->
+<!DOCTYPE html>
+<html lang="en">			 
+   <head>
+	  <title>My 11th Web Page</title>
+	  <link rel="icon" href="logo1.png"/>
+		<style>
+			h1{
+				color:red;
+			}
+			img{
+				width:150px;
+				height:150px;
+			}
+		</style>
+   </head>
+   <body>
+		<h3>demo on internal styles</h3>
+		<h1>Apple</h1>
+		<h1>Mango</h1>
+		<h1>Banana</h1>
+ 
+		<a href="images/animal.jpg">
+			<img src="images/animal.jpg"/>
+		</a>
+		<a href="images/baby.webp">
+			<img src="images/baby.webp"/>
+		</a>
+		<a href="images/mario.png">
+			<img src="images/mario.png"/>
+		</a>
+    </body>
+</html>
